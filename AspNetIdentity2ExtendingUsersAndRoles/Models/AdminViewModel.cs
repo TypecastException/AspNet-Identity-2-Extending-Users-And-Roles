@@ -10,6 +10,7 @@ namespace IdentitySample.Models
         [Required(AllowEmptyStrings = false)]
         [Display(Name = "RoleName")]
         public string Name { get; set; }
+        public string Description { get; set; }
     }
 
     public class EditUserViewModel
